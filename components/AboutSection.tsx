@@ -86,7 +86,7 @@ const AboutSection = () => {
                 muted
                 width={323}
                 height={315}
-                src="hero-image.mp4"
+                src="project-image.mp4"
               ></video> */}
             </div>
           </div>
