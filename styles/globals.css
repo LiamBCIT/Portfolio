@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#arrow {
+    bottom: 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+#reactimg {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    top: 40px;
+}
+
+.video {
+    /* object-fit: cover;
+    position: absolute; */
+    border-radius: 3em;
+}
+
+/* #mask {
+    position: absolute;
+    top: 1201px;
+    left: 804px;
+    z-index: 2;
+    user-select: none;
+    mix-blend-mode: screen;
+}  */
