@@ -9,7 +9,7 @@ const projects = [
     name: "CrowdfundSuite Agency",
     description:
       "CrowdfundSuite is a local Vancouver agency that helps business owners raise capital, conducting everything from campaign planning to execution.",
-    image: "/CrowdFundSuite_Ecommerce.png",
+    image: "/CrowdfundSuiteimg.png",
     github: "https://crowdfundsuite.com/",
     link: "https://crowdfundsuite.com/",
   },
