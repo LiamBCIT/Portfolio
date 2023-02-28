@@ -19,7 +19,7 @@ export default function Contact() {
                 Get In Touch
                 <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">I'd love to chat with you! Feel free to send me a email or <br/> connect with me on {" "}
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">I&#39;d love to chat with you! Feel free to send me a email or <br/> connect with me on {" "} 
             <Link2
             href="https://www.linkedin.com/in/liam-conkin/"
             className="text-teal-500 hover:text-teal-600 underline"

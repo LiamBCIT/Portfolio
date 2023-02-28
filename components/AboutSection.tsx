@@ -30,26 +30,24 @@ const AboutSection = () => {
           <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
             <div className="md:w-1/2 ">
               <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-                Liam Conkin
+                About Me
               </h1>
               <p>
-                I'm a {" "}
-                <span className="font-bold text-teal-500">front end developer</span> with a passion for creating {" "}
-                user-friendly, UX/UI accessibile web and mobile applications.
+                I&#39;m a
+                <span className="font-bold text-teal-500"> {" "}front end developer</span> with a passion for creating {" "}
+                user friendly, UX/UI accessibile web and mobile applications.
               </p>
-              {/* <br /> */}
-              {/* <p>
+              <br />
+              <p>
                 I am currently in my last year as a Digital Design and Development student at BCIT and I have been working with
                 small businesses and conducting freelance work.
-              </p> */}
-              <br />
-              <p>
-                With two years of experience in web development, I have honed my skills in front-end technologies. 
-                This includes a strong foundation in UX/UI Design, responsive design, frontend libraries and frameworks such as React and NextJS.
               </p>
               <br />
               <p>
-                
+                Learning from my professors, peers, mentors, clients, and my experiences has helped me develop a strong foundation in UX/UI Design, responsive design, frontend libraries and frameworks such as React and NextJS.
+              </p>
+              <p>
+              <br/>
               Whether you are in need of a new application or a redesign of an existing one, I am confident that my skills and attention to detail will result in a website that meets your needs and exceeds your expectations.
               </p>
               <br />

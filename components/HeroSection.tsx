@@ -21,11 +21,11 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Liam!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a quality-focused and goal-oriented <br/>{" "}
+            I&#39;m a goal-oriented{" "}
             <span className="font-semibold text-teal-600">
               Front End Developer{" "}
             </span>
-            striving to deliver the best possible product that exceeds people's needs.
+            from BCIT striving to deliver the best possible projects that exceeds people&#39;s needs.
           </p>
           <Link
             to="projects"
