@@ -28,13 +28,21 @@ const projects = [
     github: "https://github.com/LiamBCIT/oneplant/",
     link: "https://dev-oneplant.pantheonsite.io/",
   },
-  {
+  {  
     name: "FirstMaps",
     description:
       "A interactive resource for indigenous community members to share location, culture, art & tourism info. Catered to Indigenous community stakeholders that wished for a single convinent place to find info. Uses NextAuth.js for site security.",
     image: "/FirstMapsimg.png",
     github: "https://github.com/First-Maps/first-maps",
     link: "https://first-maps.vercel.app/",
+  },
+  {   
+    name: "WeatherFinder",
+    description:
+      "A weather app that uses the Open Weather Map API to provide weather information based on user input. I used JavaScript and Material UI to develop the app and make axios calls to display useful information.",
+    image: "/weatherfinderimg.png",
+    github: "https://github.com/LiamBCIT/WeatherFinder",
+    link: "https://weatherfinder.vercel.app/",
   },
 ]
 

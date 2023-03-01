@@ -40,7 +40,7 @@ const AboutSection = () => {
               <br />
               <p>
                 I am currently in my last year as a Digital Design and Development student at BCIT and I have been working with
-                small businesses and conducting freelance work.
+                small businesses and conducting freelance work for 2 years.
               </p>
               <br />
               <p>
@@ -48,7 +48,7 @@ const AboutSection = () => {
               </p>
               <p>
               <br/>
-              Whether you are in need of a new application or a redesign of an existing one, I am confident that my skills and attention to detail will result in a website that meets your needs and exceeds your expectations.
+              Are in need of a new application or a redesign of an current one? I am confident that my skills and attention to detail will result in a website that meets your needs and exceeds your expectations.
               </p>
               <br />
               <p>          
@@ -86,7 +86,7 @@ const AboutSection = () => {
                 muted
                 width={323}
                 height={315}
-                src="project-image.mp4"
+                src="hero-image.mp4"
               ></video> */}
             </div>
           </div>
