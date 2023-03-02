@@ -72,21 +72,21 @@ const AboutSection = () => {
                   )
                 })}
               </div>
-              <Image
+              {/* <Image
                 id="reactimg"
                 src="/react.gif"
                 alt=""
                 width={325}
                 height={325}
                 className="hidden md:block md:relative md:bottom-4 md:z-0"
-              />
+              /> */}
               {/* <video className="m-6 mt-20 flex flex-wrap flex-row justify-center"
                 autoPlay
                 loop
                 muted
                 width={323}
                 height={315}
-                src="hero-image.mp4"
+                src="video.mp4"
               ></video> */}
             </div>
           </div>
