@@ -8,8 +8,8 @@ import Link2 from 'next/link'
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-0 py-12 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-0 py-12 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left sm:mt-30">
+        <div id="gif" className="md:w-1/2">
           <Image
             src="/headshot.gif"
             alt=""
@@ -48,16 +48,16 @@ const HeroSection = () => {
 
         </div>
       </div>
-      <div className="flex flex-row justify-center items-start text-center ">
+      <div className="flex flex-row justify-center items-start text-center">
         <Link
           to="about"
           activeClass="active"
-          spy={true}
+          spy={true}  
           smooth={true}
           offset={-100}
           duration={500}
         >
-        <HiArrowDown id="arrow" size={35} className="animate-bounce" />
+        <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute top-0"/>
         </Link>
       </div>
     </section>

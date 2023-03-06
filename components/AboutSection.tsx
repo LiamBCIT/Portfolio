@@ -46,10 +46,6 @@ const AboutSection = () => {
               <p>
                 Learning from my professors, peers, mentors, clients, and my experiences has helped me develop a strong foundation in UX/UI Design, responsive design, frontend libraries and frameworks such as React and NextJS.
               </p>
-              <p>
-              <br/>
-              Are in need of a new application or a redesign of an current one? I am confident that my skills and attention to detail will result in a website that meets your needs and exceeds your expectations.
-              </p>
               <br />
               <p>          
                 Most importantly, I believe that you should{" "}
@@ -72,22 +68,6 @@ const AboutSection = () => {
                   )
                 })}
               </div>
-              {/* <Image
-                id="reactimg"
-                src="/react.gif"
-                alt=""
-                width={325}
-                height={325}
-                className="hidden md:block md:relative md:bottom-4 md:z-0"
-              /> */}
-              {/* <video className="m-6 mt-20 flex flex-wrap flex-row justify-center"
-                autoPlay
-                loop
-                muted
-                width={323}
-                height={315}
-                src="video.mp4"
-              ></video> */}
             </div>
           </div>
         </div>
