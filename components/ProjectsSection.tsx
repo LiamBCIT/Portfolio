@@ -20,14 +20,6 @@ const projects = [
     github: "https://github.com/LiamBCIT/FindAPlace",
     link: "https://findaplace.vercel.app/",
   },
-  {
-    name: "OnePlant",
-    description:
-      "Plant eCommerce site with add cart functionality, checkout and responsive-design using Woocommerce and FSE.",
-    image: "/Oneplantimg.png",
-    github: "https://github.com/LiamBCIT/oneplant/",
-    link: "https://dev-oneplant.pantheonsite.io/",
-  },
   {  
     name: "FirstMaps",
     description:
@@ -35,6 +27,14 @@ const projects = [
     image: "/FirstMapsimg.png",
     github: "https://github.com/First-Maps/first-maps",
     link: "https://first-maps.vercel.app/",
+  },
+  {
+    name: "OnePlant",
+    description:
+      "Plant eCommerce site with add cart functionality, checkout and responsive-design using Woocommerce and FSE.",
+    image: "/Oneplantimg.png",
+    github: "https://github.com/LiamBCIT/oneplanttheme",
+    link: "https://dev-oneplant.pantheonsite.io/",
   },
   {   
     name: "WeatherFinder",

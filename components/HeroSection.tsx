@@ -1,14 +1,18 @@
-"use client" // this is a client component
-import React from "react"  
-import Image from "next/image"
-import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+'use client' //client component
+
+import React from 'react'
+import Image from 'next/image'
+import { Link } from 'react-scroll/modules'
+import { HiArrowDown } from 'react-icons/hi'
 import Link2 from 'next/link'
+import TextSpan from './TextSpan'
 
 const HeroSection = () => {
+  const sentence = "Hi, I'm Liam!".split("");
+  
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-0 py-12 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left sm:mt-30">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-0 py-12 sm:py-32 md:py-43 md:flex-row md:space-x-4 md:text-left sm:mt-30">
         <div id="gif" className="md:w-1/2">
           <Image
             src="/headshot.gif"
@@ -19,13 +23,22 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Liam!</h1>
+          {/* <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Liam!</h1> */}
+                    {/* <span id="textspanletters"></span> */}
+          {sentence.map((letter, index) => {
+            return (
+              <TextSpan key={index}>
+      
+                {letter === " " ? "\u00A0" : letter}
+              </TextSpan>
+            )
+          })}
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a goal-oriented{" "}
+            I&#39;m a data-driven{" "}
             <span className="font-semibold text-teal-600">
               Front End Developer{" "}
             </span>
-            from BCIT striving to deliver the best possible projects that exceeds people&#39;s needs.
+            from BCIT, striving to deliver the best possible projects that exceeds people&#39;s needs.
           </p>
           <Link
             to="projects"
@@ -57,7 +70,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-        <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute top-0"/>
+          <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute bottom-32"/>
         </Link>
       </div>
     </section>

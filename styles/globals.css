@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 #arrow {
-    /* bottom: 50px; */
     position: relative;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 #gif {
@@ -15,3 +14,9 @@
 .video {
     border-radius: 3em;
 }
+
+#textspanletters {
+    display: inline-block;
+    font-size: 4rem;
+}
+
