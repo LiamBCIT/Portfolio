@@ -29,7 +29,7 @@ export default function Contact() {
             {" "} and I will get back to you ASAP.</p>
             </div>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <form className="flex flex-wrap -m-2" action="https://formsubmit.co/liam.conkin@gmail.com" method="POST">
+            <form className="flex flex-wrap -m-2" action="https://formsubmit.co/7547c7df7689696038fa927df708f376" method="POST">
                 <div className="p-2 w-1/2">
                 <div className="relative">
                     <label className="leading-7 text-sm dark:text-white-600">Name</label>
