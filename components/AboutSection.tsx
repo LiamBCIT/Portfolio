@@ -12,12 +12,18 @@ const skills = [
   { skill: "TypeScript" },
   { skill: "React" },
   { skill: "React Native" },
+  { skill: "Expo" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "SASS" },
   { skill: "Git" },
   { skill: "Node.js" },
   { skill: "Firebase" },
   { skill: "Wordpress" },
+  { skill: "Agile" },
+  { skill: "Figma" },
+  { skill: "Photoshop" },
+  { skill: "Illustrator" }
 ]
 
 const AboutSection = () => {
@@ -64,7 +70,7 @@ const AboutSection = () => {
                   return (
                     <p
                       key={idx}
-                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold transform transition duration-500 hover:scale-110 hover:bg-grey-600 flex justify-center items-center hover:shadow-lg"
                     >
                       {item.skill}
                     </p>

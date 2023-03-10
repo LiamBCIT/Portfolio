@@ -46,6 +46,15 @@ const projects = [
   },
 ]
 
+const crowdfundsuite = [
+  { skill: "HTML" },
+  { skill: "CSS" },
+  { skill: "SASS" },
+  { skill: "JavaScript" },
+  { skill: "WordPress" },
+  { skill: "Woocommerce" },
+]
+
 const ProjectsSection = () => {
   return (
     <section id="projects">

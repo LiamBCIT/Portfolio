@@ -70,7 +70,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute bottom-32"/>
+          <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute bottom-16"/>
         </Link>
       </div>
     </section>
