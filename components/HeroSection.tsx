@@ -72,6 +72,7 @@ const HeroSection = () => {
         >
           <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute bottom-16"/>
         </Link>
+
       </div>
     </section>
   )
