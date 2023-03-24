@@ -30,7 +30,7 @@ const AboutSection = () => {
   return (
     <section id="about">
       <SlideUp offset="-300px 0px -300px 0px">
-        <div className="my-12 pb-12 md:pt-16 md:pb-48 animate-slideUpCubiBezier animation-delay-0">
+        <div className="my-12 pb-2 md:pt-16 md:pb-12 animate-slideUpCubiBezier animation-delay-0">
           <h1 className="text-center font-bold text-4xl">
             About Me
             <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>

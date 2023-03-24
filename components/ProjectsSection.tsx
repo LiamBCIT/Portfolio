@@ -15,7 +15,8 @@ const projects = [
   },
   {
     name: "FindAPlace Real Estate",
-    description: "FindAPlace is a real estate web application that uses Bayut API to fetch 24/7 real estate links. Developed the layout and functionality with my teammates using Next.js and Tailwind CSS.",
+    description: 
+      "FindAPlace is a real estate web application that uses Bayut API to fetch 24/7 real estate links. Developed the layout and functionality with my teammates using Next.js and Tailwind CSS.",
     image: "/Findaplaceimg.png",
     github: "https://github.com/LiamBCIT/FindAPlace",
     link: "https://findaplace.vercel.app/",
@@ -27,6 +28,14 @@ const projects = [
     image: "/FirstMapsimg.png",
     github: "https://github.com/First-Maps/first-maps",
     link: "https://first-maps.vercel.app/",
+  },
+  {   
+    name: "TechQuest",
+    description:
+      "TechQuest uses Open AI API to provide job seekers interview prompts specific to their roles, from Skill-Based to Motivational questions using NextJS, React, Tailwind CSS, Axios. Awarded BCIT Hack The Break 2023 award out of 250 participants.",
+    image: "/techquestimg.png",
+    github: "https://github.com/LiamBCIT/TechQuest",
+    link: "https://techquest.vercel.app/",
   },
   {
     name: "OnePlant",
@@ -46,14 +55,14 @@ const projects = [
   },
 ]
 
-const crowdfundsuite = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "SASS" },
-  { skill: "JavaScript" },
-  { skill: "WordPress" },
-  { skill: "Woocommerce" },
-]
+// const crowdfundsuite = [;
+//   { skill: "HTML" },
+//   { skill: "CSS" },
+//   { skill: "SASS" },
+//   { skill: "JavaScript" },
+//   { skill: "WordPress" },
+//   { skill: "Woocommerce" },
+// ]
 
 const ProjectsSection = () => {
   return (
