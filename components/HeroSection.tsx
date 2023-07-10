@@ -36,7 +36,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a data-driven{" "}
             <span className="font-semibold text-teal-600">
-              Front End Developer{" "}
+              Full Stack Developer{" "}
             </span>
             from BCIT, striving to deliver the best possible projects that exceeds people&#39;s needs.
           </p>

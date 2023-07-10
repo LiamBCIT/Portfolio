@@ -11,19 +11,23 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
-  { skill: "React Native" },
-  { skill: "Expo" },
+  { skill: "React Native"},
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "SASS" },
   { skill: "Git" },
   { skill: "Node.js" },
   { skill: "Firebase" },
+  { skill: "PostgresSQL" },
+  { skill: "MySQL" },
+  { skill: "SQL" },
+  { skill: "C#" },
+  { skill: ".NET" },
   { skill: "Wordpress" },
   { skill: "Agile" },
   { skill: "Figma" },
-  { skill: "Photoshop" },
-  { skill: "Illustrator" }
+  { skill: "UX/UI Design" },
+  { skill: "Adobe Creative Cloud" },
 ]
 
 const AboutSection = () => {
@@ -43,7 +47,7 @@ const AboutSection = () => {
               </h1>
               <p>
                 I&#39;m a
-                <span className="font-bold text-teal-500"> {" "}front end developer</span> with a passion for creating {" "}
+                <span className="font-bold text-teal-500"> {" "}full stack developer</span> with a passion for creating {" "}
                 user friendly, UX/UI accessibile web and mobile applications.
               </p>
               <br />
