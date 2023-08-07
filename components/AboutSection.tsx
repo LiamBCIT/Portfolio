@@ -11,28 +11,29 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
+  { skill: "PHP" },
   { skill: "React Native"},
   { skill: "Next.js" },
+  { skill: "Express" },
   { skill: "Tailwind CSS" },
-  { skill: "SASS" },
+  { skill: "SasS" },
   { skill: "Git" },
   { skill: "Node.js" },
   { skill: "Firebase" },
   { skill: "PostgresSQL" },
   { skill: "MySQL" },
   { skill: "SQL" },
-  { skill: "C#" },
-  { skill: ".NET" },
+  { skill: "Jest Unit Testing" },
   { skill: "Wordpress" },
   { skill: "Agile" },
   { skill: "Figma" },
   { skill: "UX/UI Design" },
-  { skill: "Adobe Creative Cloud" },
+  { skill: "Adobe Creative Cloud" }
 ]
 
 const AboutSection = () => {
   return (
-    <section id="about">
+    <ection id="about">
       <SlideUp offset="-300px 0px -300px 0px">
         <div className="my-12 pb-2 md:pt-16 md:pb-12 animate-slideUpCubiBezier animation-delay-0">
           <h1 className="text-center font-bold text-4xl">
