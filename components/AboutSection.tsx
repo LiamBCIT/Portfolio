@@ -11,29 +11,28 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
-  { skill: "PHP" },
   { skill: "React Native"},
   { skill: "Next.js" },
-  { skill: "Express" },
   { skill: "Tailwind CSS" },
-  { skill: "SasS" },
+  { skill: "SASS" },
   { skill: "Git" },
   { skill: "Node.js" },
   { skill: "Firebase" },
   { skill: "PostgresSQL" },
   { skill: "MySQL" },
   { skill: "SQL" },
-  { skill: "Jest Unit Testing" },
+  { skill: "C#" },
+  { skill: ".NET" },
   { skill: "Wordpress" },
   { skill: "Agile" },
   { skill: "Figma" },
   { skill: "UX/UI Design" },
-  { skill: "Adobe Creative Cloud" }
+  { skill: "Adobe Creative Cloud" },
 ]
 
 const AboutSection = () => {
   return (
-    <ection id="about">
+    <section id="about">
       <SlideUp offset="-300px 0px -300px 0px">
         <div className="my-12 pb-2 md:pt-16 md:pb-12 animate-slideUpCubiBezier animation-delay-0">
           <h1 className="text-center font-bold text-4xl">
@@ -53,12 +52,12 @@ const AboutSection = () => {
               </p>
               <br />
               <p>
-                I am currently in my last year as a Digital Design and Development student at BCIT and I have been working with
-                small businesses and conducting freelance work for 2 years.
+                I have recently completed 2 years at Digital Design and Development at BCIT and I have been working with
+                small businesses and conducting freelance work for over 2 years.
               </p>
               <br />
               <p>
-                Learning from my professors, peers, mentors, clients, and my experiences has helped me develop a strong foundation in UX/UI Design, responsive design, frontend libraries and frameworks such as React and NextJS.
+                Learning from my clients, professors, peers, mentors, and my experiences has helped me develop a strong foundation in UX/UI Design frontend, backend and building products.
               </p>
               <br />
               <p>          
