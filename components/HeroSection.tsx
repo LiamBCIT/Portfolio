@@ -6,9 +6,26 @@ import { Link } from 'react-scroll/modules'
 import { HiArrowDown } from 'react-icons/hi'
 import Link2 from 'next/link'
 import TextSpan from './TextSpan'
+import { useState, useEffect } from 'react'
 
 const HeroSection = () => {
   const sentence = "Hi, I'm Liam!".split("");
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    // Update windowWidth when the window is resized
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const arrowOffset = windowWidth < 480 ? 40 : -100;
   
   return (
     <section id="home">
@@ -62,16 +79,22 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-start text-center">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}  
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown id="arrow" size={35} className="animate-bounce sm:flex sm:absolute bottom-16"/>
-        </Link>
+      <Link
+        to="about"
+        activeClass="active"
+        spy={true}  
+        smooth={true}
+        offset={arrowOffset}
+        duration={500}
+      >
+        <HiArrowDown
+          id="arrow"
+          size={35}
+          className={`animate-bounce sm:flex sm:absolute bottom-16 ${
+            windowWidth < 480 ? 'md:mb-40' : '' // Add the conditional class here
+          }`}
+        />
+      </Link>
 
       </div>
     </section>

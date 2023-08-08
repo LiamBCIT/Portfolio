@@ -37,14 +37,6 @@ const projects = [
     github: "https://github.com/LiamBCIT/TechQuest",
     link: "https://techquest.vercel.app/",
   },
-  {
-    name: "OnePlant",
-    description:
-      "Plant eCommerce site with add cart functionality, checkout and responsive-design using Woocommerce and FSE.",
-    image: "/Oneplantimg.png",
-    github: "https://github.com/LiamBCIT/oneplanttheme",
-    link: "https://dev-oneplant.pantheonsite.io/",
-  },
   {   
     name: "WeatherFinder",
     description:
