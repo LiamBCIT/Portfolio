@@ -87,7 +87,7 @@ export default function Navbar() {
               })}
 
           <Link2
-            href="https://drive.google.com/file/d/1Ys2TI6_UEp60f9ByiaUw3OcFoLa7RtdP/view?usp=sharing"
+            href="https://drive.google.com/file/d/12FikCVOgWFRzWOOqw7erzV4T2wO7WRfY/view?usp=sharing"
             className="block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
           >
             Resume
