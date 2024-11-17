@@ -36,28 +36,27 @@ const AboutSection = () => {
       <SlideUp offset="-300px 0px -300px 0px">
         <div className="my-12 pb-2 md:pt-16 md:pb-12 animate-slideUpCubiBezier animation-delay-0">
           <h1 className="text-center font-bold text-4xl">
-            About Me
+            Resume
             <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
           </h1>
 
           <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
             <div className="md:w-1/2 ">
               <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-                About Me
+                Experience
               </h1>
               <p>
                 I&#39;m a
-                <span className="font-bold text-teal-500"> {" "}full stack developer</span> with a passion for creating {" "}
+                <span className="font-bold text-teal-500"> {" "} Full stack developer</span> with experience creating {" "}
                 user friendly, UX/UI accessibile web and mobile applications.
               </p>
               <br />
               <p>
-                I have recently completed 2 years at Digital Design and Development at BCIT and I have been working with
-                small businesses and conducting freelance work for over 2 years.
+                Employed at Graphically Speaking and CrowdfundSuite, having completed my education at the BCIT Digital Design and Development Program.
               </p>
               <br />
               <p>
-                Learning from my clients, professors, peers, mentors, and my experiences has helped me develop a strong foundation in UX/UI Design frontend, backend and building products.
+                Learning from my clients, professors, peers, mentors, and my experiences has helped me develop a strong eye for detail with UX/UI design, frontend, backend and building products.
               </p>
               <br />
               <p>          
