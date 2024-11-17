@@ -9,7 +9,7 @@ import TextSpan from './TextSpan'
 import { useState, useEffect } from 'react'
 
 const HeroSection = () => {
-  const sentence = "Hi, I'm Liam!".split("");
+  const sentence = "Liam Conkin".split("");
   // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   // useEffect(() => {
